@@ -27,8 +27,7 @@ public class potionrecipelist {
 
     public static void innit()// input "potionrecipelist.innit();" at onEnable
     {
-        put(new ItemStack(Material.MUD),new ItemStack(Material.GLASS_BOTTLE),itemlist.mudli);
-        put(new ItemStack(Material.TORCH), new ItemStack(Material.SAND), itemlist.sandcrys);
+        put(item1,item2,result); //put ingredients and result // ItemStack
     }
 
 
